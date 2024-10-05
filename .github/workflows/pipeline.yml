@@ -1,0 +1,14 @@
+name: holle-world
+on: push
+jobs:
+  my-job:
+       runs-on: ubuntu-latest
+       steps:
+         - name: my-step 
+           run: echo "holle world!"
+         - name: class atten           
+           run: echo "class atten!"
+         - name: lab atten              
+           run: echo "lab atten!"
+         - name: workshep atten       
+           run: echo "workshep atten!"
